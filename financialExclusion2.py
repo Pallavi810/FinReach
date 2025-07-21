@@ -31,4 +31,4 @@ print("Dormant Accounts:")
 print(dormant_accounts['AccountID'].unique())
 
 num_dormant = dormant_accounts['AccountID'].nunique()
-print(f"Number of dormant accounts: {num_dormant}")
+print("Number of dormant accounts: {num_dormant}")
